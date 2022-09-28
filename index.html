@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <title>座位選擇</title>
+</head>
+<body>
+    <nav class="top">
+        <a class="title">座位選擇</a>
+    </nav>
+    <div class="protect" id="protect"></div>
+    <div class="board"></div>
+    <div class="seats">
+        <div class="row">
+            <div class="seat" id="8,1" onclick="choose(8,1);"></div>
+            <div class="seat" id="8,2" onclick="choose(8,2);"></div>
+            <div class="seat" id="8,3" onclick="choose(8,3);"></div>
+            <div class="seat" id="8,4" onclick="choose(8,4);"></div>
+            <div class="seat" id="8,5" onclick="choose(8,5);"></div>
+            <div class="seat" id="8,6" onclick="choose(8,6);"></div>
+        </div>
+        <div class="row">
+            <div class="seat" id="7,1" onclick="choose(7,1);"></div>
+            <div class="seat" id="7,2" onclick="choose(7,2);"></div>
+            <div class="seat" id="7,3" onclick="choose(7,3);"></div>
+            <div class="seat" id="7,4" onclick="choose(7,4);"></div>
+            <div class="seat" id="7,5" onclick="choose(7,5);"></div>
+            <div class="seat" id="7,6" onclick="choose(7,6);"></div>
+        </div>
+        <div class="row">
+            <div class="seat" id="6,1" onclick="choose(6,1);"></div>
+            <div class="seat" id="6,2" onclick="choose(6,2);"></div>
+            <div class="seat" id="6,3" onclick="choose(6,3);"></div>
+            <div class="seat" id="6,4" onclick="choose(6,4);"></div>
+            <div class="seat" id="6,5" onclick="choose(6,5);"></div>
+            <div class="seat" id="6,6" onclick="choose(6,6);"></div>
+        </div>
+        <div class="row">
+            <div class="seat" id="5,1" onclick="choose(5,1);"></div>
+            <div class="seat" id="5,2" onclick="choose(5,2);"></div>
+            <div class="seat" id="5,3" onclick="choose(5,3);"></div>
+            <div class="seat" id="5,4" onclick="choose(5,4);"></div>
+            <div class="seat" id="5,5" onclick="choose(5,5);"></div>
+            <div class="seat" id="5,6" onclick="choose(5,6);"></div>
+        </div>
+        <div class="row">
+            <div class="seat" id="4,1" onclick="choose(4,1);"></div>
+            <div class="seat" id="4,2" onclick="choose(4,2);"></div>
+            <div class="seat" id="4,3" onclick="choose(4,3);"></div>
+            <div class="seat" id="4,4" onclick="choose(4,4);"></div>
+            <div class="seat" id="4,5" onclick="choose(4,5);"></div>
+            <div class="seat" id="4,6" onclick="choose(4,6);"></div>
+        </div>
+        <div class="row">
+            <div class="seat" id="3,1" onclick="choose(3,1);"></div>
+            <div class="seat" id="3,2" onclick="choose(3,2);"></div>
+            <div class="seat" id="3,3" onclick="choose(3,3);"></div>
+            <div class="seat" id="3,4" onclick="choose(3,4);"></div>
+            <div class="seat" id="3,5" onclick="choose(3,5);"></div>
+            <div class="seat" id="3,6" onclick="choose(3,6);"></div>
+        </div>
+        <div class="row">
+            <div class="seat" id="2,1" onclick="choose(2,1);"></div>
+            <div class="seat" id="2,2" onclick="choose(2,2);"></div>
+            <div class="seat" id="2,3" onclick="choose(2,3);"></div>
+            <div class="seat" id="2,4" onclick="choose(2,4);"></div>
+            <div class="seat" id="2,5" onclick="choose(2,5);"></div>
+            <div class="seat" id="2,6" onclick="choose(2,6);"></div>
+        </div>
+        <div class="row">
+            <div class="seat" id="1,1" onclick="choose(1,1);"></div>
+            <div class="seat" id="1,2" onclick="choose(1,2);"></div>
+            <div class="seat" id="1,3" onclick="choose(1,3);"></div>
+            <div class="seat" id="1,4" onclick="choose(1,4);"></div>
+            <div class="seat" id="1,5" onclick="choose(1,5);"></div>
+            <div class="seat" id="1,6" onclick="choose(1,6);"></div>
+        </div>
+    </div>
+    
+    <nav class="confirm" id="confirm-box">
+        <a class="info">已選取 第1排 第2列</a>
+        <div class="btns">
+            <button class="cancel-btn" onclick="cancel();">重選</button>
+            <button class="confirm-btn">送出</button>
+        </div>
+    </nav> 
+    
+
+</body>
+</html>

@@ -41,6 +41,9 @@ body {
     margin-bottom: 10px;
     transition: all 0.2s ease;
     margin-left: 2.225px;
+    color: #696969;
+    text-align: center;
+    line-height: 35px;
 }
 
 .confirm{
@@ -70,6 +73,11 @@ body {
     border-radius: 5px;
 }
 
+.confirm-btn:disabled{
+    color: #696969;
+    background-color: #152d51;
+}
+
 .cancel-btn{
     border: none;
     background-color: #962929;
@@ -89,7 +97,7 @@ body {
     color: #FFFFFF;
     font-size: 16px;
     margin: auto;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .protect{

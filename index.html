@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js"></script>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>座位選擇</title>
 </head>
 <body>
     <nav class="top">
         <a class="title">座位選擇</a>
     </nav>
-    <div class="protect" id="protect"></div>
+    <div class="protect" id="protect" onclick="protect();"></div>
     <div class="board"></div>
     <div class="seats">
         <div class="row">
@@ -81,14 +86,12 @@
         </div>
     </div>
     
-    <nav class="confirm" id="confirm-box">
+    <nav class="confirm animate__animated" id="confirm-box">
         <a class="info">已選取 第1排 第2列</a>
         <div class="btns">
             <button class="cancel-btn" onclick="cancel();">重選</button>
-            <button class="confirm-btn">送出</button>
+            <button class="confirm-btn" onclick="confirm();" disabled>送出</button>
         </div>
     </nav> 
-    
-
 </body>
 </html>
